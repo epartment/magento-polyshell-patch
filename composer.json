@@ -1,0 +1,22 @@
+{
+  "name": "markshust/magento-polyshell-patch",
+  "description": "Mitigates the PolyShell vulnerability (APSB25-94)",
+  "type": "magento2-module",
+  "version": "0.1.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MarkShust\\PolyshellPatch\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Mark Shust"
+    }
+  ],
+  "require": {
+    "magento/product-community-edition": ">=2.4.4 <2.4.9"
+  }
+}
